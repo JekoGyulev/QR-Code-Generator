@@ -1,2 +1,2 @@
 # QR-Code-Generator
-A simple and customizable QR Code Generator that allows users to generate, resize, and download QR codes. Features include background color selection, size adjustment, and an input reset function for a smoother user experience
+This is a simple yet feature-rich QR Code Generator that allows users to create customized QR codes. The app provides various customization options to enhance the user experience and usability of the generated QR codes
