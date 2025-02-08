@@ -30,4 +30,8 @@ Technologies Used:
 - CSS 
 - JavaScript
 - QR Code API (qrserver.com)
+- 
+
+## Live Demo
+You can view the live demo of the project here: [Live Demo](https://jekogyulev.github.io/QR-Code-Generator/)
 
