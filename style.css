@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #222;
+}
+.app-container {
+  margin: 100px auto;
+  background-color: #fff;
+  max-width: 600px;
+  padding: 25px 35px;
+  border-radius: 15px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.app-container input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #494eea;
+  outline: 0;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px 20px;
+}
+.app-container button {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  background-color: #494eea;
+  color: #FFF;
+  box-shadow: 0 10px 10px rgb(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin: 20px 0;
+  font-weight: 500;
+  transition: 0.4s;
+}
+.app-container .button {
+  margin-bottom: 0;
+}
+.app-container button:hover {
+  background-color: #282caf;
+}
+
+
+
+
+#imgBox {
+  overflow: hidden;
+  border-radius: 5px;
+  opacity: 0;
+  position: relative;
+  max-height: none;
+  transition: 
+  height 1s ease-in-out, width 2s ease-in-out,
+  opacity 1s ease-in-out;
+}
+#imgBox #qrImage {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+#imgBox.show-img {
+  opacity: 1;
+  margin: 10px auto;
+  border: 1px solid #d1d1d1;
+}
+
+.bgcolor-container {
+  display: flex;
+  flex-direction: column;
+}
+#qrBgColorSelect {
+  width: 50%;
+  padding: 13px 5px;
+  border-radius: 5px;
+  border-color: #494eea;
+  margin-top: 10px;
+  border: 2px solid;
+  outline: none;
+  transition: 0.3s;
+  margin-bottom: 40px;
+}
+
+
+.dwn-container {
+  max-width: 50%;
+  width: fit-content;
+  margin: auto;
+  opacity: 0;
+  transition: opacity 3s;
+}
+.dwn-container.show-container {
+  opacity: 1;
+}
+.dwn-container button {
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+
+
+.reset-button {
+  cursor: pointer;
+  transition: max-height 2s ease-in-out;
+}
+
+
+.reset-button i{
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+.reset-button.clicked i {
+  transform: rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.error {
+  animation: shake 0.1s linear 10;
+}
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
